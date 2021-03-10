@@ -109,4 +109,3 @@ onurias.com
 ONUR – Sesli Asistan ile ilgili tavsiyelerinin ve önerilerinizi aşağıdaki adreslerden iletebilirsiniz.
 
 atadogan06@gmail.com
-https://www.facebook.com/atakan.ulusoy.94695
