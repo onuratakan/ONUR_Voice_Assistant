@@ -1,4 +1,4 @@
-# ONUR-Sesli-Asistan
+# ONUR Sesli Asistan | [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/) [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/onuratakan/ONUR-Sesli-Asistan/blob/master/LICENSE)
 ![onur_sesli_asistan](https://repository-images.githubusercontent.com/247665179/a1975680-59b3-11eb-82d2-9d28e68edab2)
 
 ONUR’u kısaca açıklarsak dediklerinize harfiyen uyan sizi görünce çalışan, kilit moduna sahip olan, internetten araştırma yapabilen ve Müzik açma gibi basit işleri yapabilen bir asistandır. Ve tüm bunları basit de olsa bir arayüz içinde yapmaktadır.
