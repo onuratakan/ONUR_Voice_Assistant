@@ -98,12 +98,7 @@ yapımcın
 nasılsın
 döngüden çık
 aferin
-İndirme Bağlantıları
-Google Drive
 
-Rar şifresi :
-
-onurias.com
 
 # Geliştirme Sürecine Siz de Katkıda Bulunun !
 ONUR – Sesli Asistan ile ilgili tavsiyelerinin ve önerilerinizi aşağıdaki adreslerden iletebilirsiniz.
