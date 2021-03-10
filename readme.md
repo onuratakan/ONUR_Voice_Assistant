@@ -67,7 +67,7 @@ ONUR Google’ın arama sonucunun yanındaki bölümden veriyi çekip size okuya
 ONUR Facebook ve YouTube adreslerini açabilmekte.
 
 # Seslendirme
-ONUR – Sesli Asistan’ın seslendirmesi büyük çoğunlukta Google hizmetinden alınsa da her geçen gün seslendirme çalışmaları ile değştiriliyor.
+ONUR – Sesli Asistan’ın seslendirmesi büyük çoğunlukta Google Text to Speech hizmetinden alınıyor.
 
 # Otomatik Ses Dosyalarını Yeniden Yükleme
 ONUR’un ses dosyalarını kaybederseniz Google hizmetinden aldığı veri ile ses dosyalarını tekrar yükleyebilir.
@@ -88,7 +88,8 @@ speech_recognition
 playsound
 selenium
 tkinter
-Komutlar
+
+#Komutlar
 internette ara
 araştır
 facebook
