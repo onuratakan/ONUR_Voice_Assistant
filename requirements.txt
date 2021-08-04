@@ -1,2 +1,3 @@
 say-me-something==0.1.0
 selenium==3.141.0
+SpeechRecognition==3.8.1

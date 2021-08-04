@@ -1,4 +1,5 @@
 from say_me_something import say
+import speech_recognition as sr
 from .offical_data_system import *
 
 
