@@ -47,7 +47,7 @@ license='MIT',
 packages=["ONUR_Voice_Assistant"],
 package_dir={'':'src'},
 install_requires=[
-    "say-me-something==0.1.0",
+    "say-me-something==0.1.1",
     "selenium==3.141.0",
     "SpeechRecognition==3.8.1"
 ],
