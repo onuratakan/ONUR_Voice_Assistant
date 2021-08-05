@@ -1,1 +1,1 @@
-from .ONUR_Voice_Assistant import ONUR_Voice_Assistant
+from .ONUR_Voice_Assistant import ONUR

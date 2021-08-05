@@ -6,37 +6,24 @@ from setuptools import setup
 
 setup(name='ONUR_Voice_Assistant',
 version='0.1.0',
-description="""""",
+description="""A modular and expandable voice assistant""",
 long_description="""
-# Say Me Something
-A text to speak library with embedded cache system.
+# ONUR Voice Assistant | [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/) [![GitHub license](https://img.shields.io/github/license/onuratakan/ONUR_Voice_Assistant)](https://github.com/onuratakan/ONUR_Voice_Assistant/blob/master/LICENSE)
+A modular and expandable voice assistant.
 # Install
 ```
-pip3 install say-me-something
+pip3 install ONUR_Voice_Assistant
 ```
 # Using
 ## In another script
 ```python
-from say_me_something import say
+from ONUR_Voice_Assistant import ONUR
 
-# say(text = None, language = "en", no_cache = False, reset = False, no_speak = False)
-
-say("Hello")
+ONUR.run()
 ```
 ## In command line
 ```console
-  -h, --help            show this help message and exit
-  -t TEXT [TEXT ...], --text TEXT [TEXT ...]
-                        Text
-  -l LANGUAGE, --language LANGUAGE
-                        Language
-  -nc, --nocache        No cache
-  -r, --reset           Reset (removing the caches)
-  -ns, --nospeak        No speak
-```
-
-```console
-say -t Hello
+ONUR
 ```
 """,
 long_description_content_type='text/markdown',

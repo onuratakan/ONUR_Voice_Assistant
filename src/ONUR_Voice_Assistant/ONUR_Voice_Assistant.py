@@ -9,7 +9,6 @@ class ONUR_Voice_Assistant:
    def __init__(self, data = OFFICAL_DATA):
       say("""I'm listening to you boss""")
       self.data = data
-      self.run()
 
 
    def run(self):
@@ -34,4 +33,8 @@ class ONUR_Voice_Assistant:
          say("""I don't now""")
 
 
-    
+ONUR = ONUR_Voice_Assistant()
+
+
+if __name__ == "__main__":
+   ONUR.run()
