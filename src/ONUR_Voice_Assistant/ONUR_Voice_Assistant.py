@@ -7,11 +7,11 @@ from .offical_data_system import *
 class ONUR_Voice_Assistant:
    
    def __init__(self, data = OFFICAL_DATA):
-      say("""I'm listening to you boss""")
       self.data = data
 
 
    def run(self):
+      say("""I'm listening to you boss""")
       while True:
          expression = ask()
          if not expression == "exit":
