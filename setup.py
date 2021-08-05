@@ -12,7 +12,7 @@ long_description="""
 A modular and expandable voice assistant.
 # Install
 ```
-pip3 install ONUR_Voice_Assistant
+pip install ONUR-Voice-Assistant
 ```
 # Using
 ## In another script
