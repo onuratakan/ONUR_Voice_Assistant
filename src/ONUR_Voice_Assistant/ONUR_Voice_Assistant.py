@@ -1,4 +1,5 @@
 from say_me_something import say
+from ask_me_something import ask
 import speech_recognition as sr
 from .offical_data_system import *
 
@@ -8,26 +9,16 @@ class ONUR_Voice_Assistant:
    def __init__(self):
       say("""I'm listening to you boss""")
       self.data = OFFICAL_DATA
-      self.listen()
-
-   @staticmethod
-   def ask():
-      r = sr.Recognizer()
-      with sr.Microphone() as source:
-         print("Say something")
-         audio = r.listen(source)
-      try:
-         data = r.recognize_google(audio, language='en-en')
-         data = data.lower()
-         return data
-
-      except sr.UnknownValueError:
-            print("I can't understand")  
+      self.run()
 
 
-   def listen(self):
+   def run(self):
       while True:
-         self.engine(self.ask())
+         expression = ask()
+         if not expression == "exit":
+            self.engine(expression)
+         else:
+            exit()
 
 
    def engine(self, expression):

@@ -1,6 +1,8 @@
 import webbrowser
 
 from say_me_something import say
+from ask_me_something import ask
+
 
 from selenium import webdriver
 
@@ -9,15 +11,13 @@ from selenium import webdriver
 
 def open_on_google():
     say("What should i look for")
-    from .ONUR_Voice_Assistant import ONUR_Voice_Assistant
-    webbrowser.open('https://www.google.com/search?q=' + ONUR_Voice_Assistant.ask()())
+    webbrowser.open('https://www.google.com/search?q=' + ask())
 
 
 def search_on_google():
     say("What should i look for")
     driver = webdriver.Chrome()
-    from .ONUR_Voice_Assistant import ONUR_Voice_Assistant
-    driver.get('https://www.google.com/search?q=' + ONUR_Voice_Assistant.ask()())
+    driver.get('https://www.google.com/search?q=' + ask())
     search_result = driver.find_element_by_xpath('//*[@id="rhs_block"]/div/div[1]/div/div[1]/div[2]/div[2]/div/div[1]/div/div/div/div/span[1]').text
     say(search_result) 
 
