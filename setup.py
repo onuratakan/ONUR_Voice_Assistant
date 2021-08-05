@@ -40,7 +40,7 @@ install_requires=[
     "SpeechRecognition==3.8.1",
 ],
 entry_points = {
-    'console_scripts': ['ONUR=ONUR_Voice_Assistant.ONUR_Voice_Assistant:ONUR_Voice_Assistant'],
+    'console_scripts': ['ONUR=ONUR_Voice_Assistant.ONUR_Voice_Assistant:ONUR.run'],
 },
 python_requires=">= 3, < 3.7",
 zip_safe=False)
