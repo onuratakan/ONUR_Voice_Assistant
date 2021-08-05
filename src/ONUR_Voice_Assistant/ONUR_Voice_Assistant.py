@@ -6,9 +6,9 @@ from .offical_data_system import *
 
 class ONUR_Voice_Assistant:
    
-   def __init__(self):
+   def __init__(self, data = OFFICAL_DATA):
       say("""I'm listening to you boss""")
-      self.data = OFFICAL_DATA
+      self.data = data
       self.run()
 
 
