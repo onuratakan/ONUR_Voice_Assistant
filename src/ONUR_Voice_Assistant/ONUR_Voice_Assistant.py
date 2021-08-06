@@ -20,7 +20,6 @@ class ONUR_Voice_Assistant:
 
 
    def engine(self, expression):
-      print(expression)
       know = False
 
       for situation in self.data:
