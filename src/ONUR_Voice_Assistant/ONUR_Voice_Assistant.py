@@ -25,7 +25,7 @@ class ONUR_Voice_Assistant:
       know = False
 
       for situation in self.data:
-         if situation[0] in situation:
+         if situation[0] in expression:
             know = True
             exec(situation[1])
       
