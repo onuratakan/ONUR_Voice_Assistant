@@ -27,7 +27,31 @@ def open_youtube():
 
 
 OFFICAL_DATA = [
-    ["open on google", "open_on_google()"],
-    ["open facebook", "open_facebook()"],
-    ["open youtube", "open_youtube()"]
+    [
+        [
+            "how are you",
+        ], 
+        "how_are_you()"
+    ],
+    [
+        [
+            "open google",
+            "open search engine",
+        ], 
+        "open_on_google()"
+    ],   
+    [
+        [
+            "open facebook",
+            "open the facebook",
+        ], 
+        "open_facebook()"
+    ], 
+    [
+        [
+            "open youtube",
+            "open the youtube",
+        ], 
+        "open_youtube()"
+    ], 
 ]

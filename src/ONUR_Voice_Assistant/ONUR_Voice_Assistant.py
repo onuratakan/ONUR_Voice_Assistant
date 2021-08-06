@@ -23,9 +23,15 @@ class ONUR_Voice_Assistant:
       know = False
 
       for situation in self.data:
-         if situation[0] in expression:
-            know = True
-            exec(situation[1])
+         if not type(situation[0]) == list:
+            if situation[0] in expression:
+               know = True
+               exec(situation[1])
+         else:
+            for sub_situation_trigger in situation[0]:
+               if sub_situation_trigger in expression:
+                  know = True
+                  exec(situation[1])               
       
       if not know and not expression == "":
          say("""I don't now""")
