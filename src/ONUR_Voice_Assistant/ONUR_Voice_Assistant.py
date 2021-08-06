@@ -13,7 +13,7 @@ class ONUR_Voice_Assistant:
       say("""I'm listening to you boss""")
       while True:
          expression = ask()
-         if not expression == "exit":
+         if not expression == "shut down":
             self.engine(expression)
          else:
             exit()
@@ -27,7 +27,7 @@ class ONUR_Voice_Assistant:
             know = True
             exec(situation[1])
       
-      if not know:
+      if not know and not expression == "":
          say("""I don't now""")
 
 
