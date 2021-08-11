@@ -5,7 +5,7 @@ from setuptools import setup
 
 
 setup(name='ONUR_Voice_Assistant',
-version='0.1.6',
+version='0.1.7',
 description="""A modular and expandable voice assistant""",
 long_description="""
 # ONUR Voice Assistant | [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/) [![GitHub license](https://img.shields.io/github/license/onuratakan/ONUR_Voice_Assistant)](https://github.com/onuratakan/ONUR_Voice_Assistant/blob/master/LICENSE)
@@ -34,8 +34,8 @@ license='MIT',
 packages=["ONUR_Voice_Assistant"],
 package_dir={'':'src'},
 install_requires=[
-    "say-me-something==0.1.1",
-    "ask-me-something==0.1.3",
+    "say-me-something==0.1.2",
+    "ask-me-something==0.1.4",
     "Linear-Congruential-Generator==0.1.5"
 ],
 entry_points = {
