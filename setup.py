@@ -5,7 +5,7 @@ from setuptools import setup
 
 
 setup(name='ONUR_Voice_Assistant',
-version='0.1.7',
+version='0.1.8',
 description="""A modular and expandable voice assistant""",
 long_description="""
 # ONUR Voice Assistant | [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/) [![GitHub license](https://img.shields.io/github/license/onuratakan/ONUR_Voice_Assistant)](https://github.com/onuratakan/ONUR_Voice_Assistant/blob/master/LICENSE)
@@ -27,7 +27,7 @@ ONUR
 ```
 """,
 long_description_content_type='text/markdown',
-url='https://github.com/onuratakan/say_me_something',
+url='https://github.com/onuratakan/ONUR_Voice_Assistant',
 author='Onur Atakan ULUSOY',
 author_email='atadogan06@gmail.com',
 license='MIT',
