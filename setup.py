@@ -34,12 +34,12 @@ license='MIT',
 packages=["ONUR_Voice_Assistant"],
 package_dir={'':'src'},
 install_requires=[
-    "say-me-something==0.1.2",
-    "ask-me-something==0.1.4",
-    "Linear-Congruential-Generator==0.1.5"
+    "Linear-Congruential-Generator==0.1.5",
+    "flask==2.0.0",
+    "waitress==2.0.0",
 ],
 entry_points = {
     'console_scripts': ['ONUR=ONUR_Voice_Assistant.ONUR_Voice_Assistant:ONUR.run'],
 },
-python_requires=">= 3, < 3.7",
+python_requires=">= 3",
 zip_safe=False)
