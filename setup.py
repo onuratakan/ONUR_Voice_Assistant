@@ -31,7 +31,7 @@ url='https://github.com/onuratakan/ONUR_Voice_Assistant',
 author='Onur Atakan ULUSOY',
 author_email='atadogan06@gmail.com',
 license='MIT',
-packages=["ONUR_Voice_Assistant"],
+packages=["ONUR_Voice_Assistant", "ONUR_Data"],
 package_dir={'':'src'},
 install_requires=[
     "Linear-Congruential-Generator==0.1.5",
