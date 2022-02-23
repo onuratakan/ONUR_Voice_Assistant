@@ -13,5 +13,5 @@ ONUR.run_api()
 ```
 ## In command line
 ```console
-ONUR
+onur_api
 ```
