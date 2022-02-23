@@ -9,7 +9,7 @@ pip install ONUR-Voice-Assistant
 ```python
 from ONUR_Voice_Assistant import ONUR
 
-ONUR.run()
+ONUR.run_api()
 ```
 ## In command line
 ```console

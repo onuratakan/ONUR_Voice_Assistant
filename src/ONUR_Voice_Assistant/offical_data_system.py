@@ -1,7 +1,9 @@
-import webbrowser
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
 
 from lcg import LCG
 
+from get_crypto_price import get_crypto_price
 
 def how_are_you():
     answers = [
@@ -10,13 +12,8 @@ def how_are_you():
     ]
     return LCG.choice(answers)
 
-def open_facebook():
-    return """I'am opening the facebok"""
-    webbrowser.open('https://facebook.com')
-
-def open_youtube():
-    return """I'am opening the youtube"""
-    webbrowser.open('https://youtube.com')
+def onur_get_crypto_price(coin = "btc"):
+    return get_crypto_price(crypto=coin)
 
 
 OFFICAL_DATA = [
@@ -25,19 +22,11 @@ OFFICAL_DATA = [
             "how are you",
         ], 
         how_are_you
-    ],  
+    ],
     [
         [
-            "open facebook",
-            "open the facebook",
-        ], 
-        open_facebook
-    ], 
-    [
-        [
-            "open youtube",
-            "open the youtube",
-        ], 
-        open_youtube
-    ], 
+            "get crypto price"
+        ],
+        onur_get_crypto_price
+    ]
 ]

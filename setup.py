@@ -37,9 +37,10 @@ install_requires=[
     "Linear-Congruential-Generator==0.1.5",
     "flask==2.0.0",
     "waitress==2.0.0",
+    "get-crypto-price==0.2.2",
 ],
 entry_points = {
-    'console_scripts': ['ONUR=ONUR_Voice_Assistant.ONUR_Voice_Assistant:ONUR.run'],
+    'console_scripts': ['onur_api=ONUR_Voice_Assistant.ONUR_Voice_Assistant:ONUR.run_api'],
 },
 python_requires=">= 3",
 zip_safe=False)
