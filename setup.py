@@ -36,7 +36,7 @@ package_dir={'':'src'},
 install_requires=[
     "Linear-Congruential-Generator==0.1.5",
     "flask==2.0.0",
-    "waitress==2.0.0",
+    "waitress==2.1.1",
     "get-crypto-price==0.2.2",
 ],
 entry_points = {
