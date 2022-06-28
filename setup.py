@@ -42,5 +42,5 @@ install_requires=[
 entry_points = {
     'console_scripts': ['onur_api=ONUR_Voice_Assistant.ONUR_Voice_Assistant:ONUR.run_api'],
 },
-python_requires=">= 3",
+python_requires=">= 3.8",
 zip_safe=False)
